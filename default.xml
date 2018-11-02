@@ -1,12 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="origin"
-           fetch=".."
-           review="github.com" />   
-  <!-- remote  name="private" fetch="https://notmikeb@github.com" / -->   
-  <default revision="master" remote="origin" sync-j="4" /> 
 
-  <!-- AOSP Projects -->
-  <project path="src/python_desk" name="notmikeb/python_desk" groups="day">
+  <remote  name="github"
+           fetch="git://github.com" />
+
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
+  <remote  name="busybox"
+           fetch="git://git.busybox.net" />
+
+  <remote  name="kernel"
+           fetch="git://git.kernel.org" />
+
+  <remote  name="android"
+           fetch="https://android.googlesource.com" />
+
+  <default revision="refs/heads/master"
+           remote="github"
+           sync-c="true"
+           sync-j="4" />
+
+  <project path="build" name="grub4android/build" >
+    <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+
+  <project path="grub" name="grub4android/grub" remote="github" />
+
+
+
 </manifest>
