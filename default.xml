@@ -8,6 +8,5 @@
 
   <!-- AOSP Projects -->
   <project path="src/python_desk" name="notmikeb/python_desk" groups="day">
-    <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 </manifest>
