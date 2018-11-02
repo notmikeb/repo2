@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="github"
-           fetch="."
+           fetch=".."
            review="github.com" />   
-  <remote  name="private" fetch="https://notmikeb@github.com" />   
+  <!-- remote  name="private" fetch="https://notmikeb@github.com" / -->   
   <default revision="master" remote="github" sync-c="true"  sync-j="4" /> 
 
   <!-- AOSP Projects -->
