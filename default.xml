@@ -3,15 +3,8 @@
   <remote  name="github"
            fetch=".."   
            review="github.com" />   
-
-  <remote  name="private"                     
-           fetch="https://notmikeb@github.com" />   
-
-    // 默认的下载地址，如果没有指定remote的话。
-  <default revision="master"
-           remote="github"    
-           sync-c="true"  
-           sync-j="4" /> 
+  <remote  name="private" fetch="https://notmikeb@github.com" />   
+  <default revision="master" remote="github" sync-c="true"  sync-j="4" /> 
 
   <!-- AOSP Projects -->
   <project path="build" name="notmikeb/workspace" groups="day">
