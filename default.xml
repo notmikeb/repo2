@@ -10,5 +10,4 @@
   <project path="build" name="notmikeb/workspace" groups="day">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-<manifest>
-
+</manifest>
