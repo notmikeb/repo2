@@ -10,8 +10,8 @@
     // 默认的下载地址，如果没有指定remote的话。
   <default revision="master"
            remote="github"    
-           sync-c="true"                        // 只同步指定的分支
-           sync-j="4" />                        // repo sync 默认的并行数目
+           sync-c="true"  
+           sync-j="4" /> 
 
   <!-- AOSP Projects -->
   <project path="build" name="notmikeb/workspace" groups="day">
