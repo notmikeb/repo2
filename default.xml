@@ -7,7 +7,7 @@
   <default revision="master" remote="github" sync-c="true"  sync-j="4" /> 
 
   <!-- AOSP Projects -->
-  <project path="build" name="notmikeb/workspace" groups="day">
+  <project path="src/python_desk" name="notmikeb/python_desk" groups="day">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 </manifest>
