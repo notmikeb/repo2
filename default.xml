@@ -4,7 +4,7 @@
            fetch=".."
            review="github.com" />   
   <!-- remote  name="private" fetch="https://notmikeb@github.com" / -->   
-  <default revision="master" remote="origin" sync-c="false"  sync-j="4" /> 
+  <default revision="master" remote="origin" sync-j="4" /> 
 
   <!-- AOSP Projects -->
   <project path="src/python_desk" name="notmikeb/python_desk" groups="day">
